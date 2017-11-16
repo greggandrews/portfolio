@@ -9,13 +9,13 @@
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);*/
 /*@import url(http://fonts.googleapis.com/css?family=Slabo+27px);*/
 
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+/*<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">*/
 
 /*==================================  2. Global  ========================================*/
 
 body {
 	background-color: white;
-	font-family: 'Slabo 27px', serif;
+	/*font-family: 'Slabo 27px', serif;*/
 	font-size: 15px;
 	line-height: 24px;
 	position: relative;
@@ -29,7 +29,7 @@ body {
 }
 
 .breadcrumb a {
-    color: #db5252;
+    color: #F56123;
 }
 
 .breadcrumb a:hover {
@@ -42,7 +42,7 @@ body {
 
 .breadcrumb>li+li:before {
 	padding: 0 10px;
-	color: #db5252;
+	color: #F56123;
 	font-family: "Ionicons";
 	content: "\f125";
 }
@@ -79,8 +79,8 @@ blockquote footer {
 }
 
 .btn-red-border {
-	border: 1px solid #db5252;
-	color: #db5252;
+	border: 1px solid #F56123;
+	color: #F56123;
 	transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -89,7 +89,7 @@ blockquote footer {
 }
 
 .btn-red-border:hover {
-	background-color: #db5252;
+	background-color: #F56123;
 	color: #ffffff;
 }
 
@@ -105,19 +105,19 @@ blockquote footer {
 
 .btn-white-border:hover {
 	background-color: #ffffff;
-	color: #db5252;
+	color: #F56123;
 }
 
 #portfolio .btn-default:hover {
-    background-color: #db5252;
-    border: 1px solid #db5252;
+    background-color: #F56123;
+    border: 1px solid #F56123;
     color: #fff;
 }
 
 #portfolio .btn-default:focus {
 	outline: none;
-    background-color: #db5252;
-    border: 1px solid #db5252;
+    background-color: #F56123;
+    border: 1px solid #F56123;
     color: #fff;
 }
 
@@ -142,8 +142,8 @@ blockquote footer {
 }
 
 .blog-btn:hover {
-	border: 1px solid #db5252;
-	color: #db5252;
+	border: 1px solid #F56123;
+	color: #F56123;
 }
 
 .submit-btn {
@@ -277,8 +277,8 @@ textarea {
 
 .input-group-addon {
     border-radius: 0;
-    border: 1px solid #db5252;
-    background-color: #db5252;
+    border: 1px solid #F56123;
+    background-color: #F56123;
     color: #fff;
 }
 
@@ -305,7 +305,8 @@ textarea {
 }
 
 .dark-gray-bg {
-	background-color: #f1f0f0;
+	/*background-color: #f1f0f0;*/
+	background-color: #42A2BA;
 }
 
 /* =-=-=-=--=-=-==-=-=-=-=-  Typography   =-=-=-=-=-=-=-=-==-=-=-=-=-=-=*/
@@ -458,7 +459,7 @@ section {
 	font-size: 65px;
 	opacity: 1;
 	margin: 0px;
-	color: #db5252;
+	color: #F56123;
 	top: 40%;
 	line-height: 40px;
 }
@@ -494,7 +495,7 @@ section {
 .service-content i {
     height: 60px;
     width: 60px;
-    background-color: #db5252;
+    background-color: #F56123;
     font-size: 30px;
     color: #f1f0f0;
     padding: 15px 0px;
@@ -504,7 +505,7 @@ section {
 /*===========================  call to action ===================================*/
 
 .call-to-action {
-	background-color: #db5252;
+	background-color: #F56123;
 	color: #ffffff;
 	padding: 35px 0px;
 }
@@ -529,7 +530,7 @@ section {
 }
 
 .price-box .pricing-catagory-name {
-    color: #db5252;
+    color: #F56123;
     font-size: 22px;
     margin-bottom: 25px;
 }
@@ -554,7 +555,7 @@ section {
 }
 
 .price-box ul li i {
-	color: #db5252;
+	color: #F56123;
 	font-size: 18px;
 	margin-right: 12px;
 
@@ -571,12 +572,12 @@ section {
 }
 
 .price-catagory:hover .price-box .btn {
-	color: #db5252;
-	border: 1px solid #db5252;
+	color: #F56123;
+	border: 1px solid #F56123;
 }
 
 .price-box .btn:hover {
-	background-color: #db5252;
+	background-color: #F56123;
 	color: #ffffff !important;
 }
 
