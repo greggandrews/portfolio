@@ -301,7 +301,7 @@ textarea {
 }
 
 .light-gray-bg {
-	background-color: #feffff;
+	background-color: #F56123;
 }
 
 .dark-gray-bg {
@@ -435,9 +435,6 @@ section {
     padding: 10px 27px;
 }
 
-#skills {
-	background: url(../img/coding-narrow.jpg)
-}
 
 /*====================================  Portfolio =====================================*/
 
@@ -507,6 +504,10 @@ section {
     font-size: 30px;
     color: #f1f0f0;
     padding: 15px 0px;
+}
+
+#services-color {
+		color: white;
 }
 
 
