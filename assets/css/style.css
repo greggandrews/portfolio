@@ -15,6 +15,7 @@
 body {
 	background-color: white;
 	font-family: 'helvetica neue', sans-serif;
+	/*font-family: 'oswald', sans-serif;*/
 	font-size: 15px;
 	line-height: 24px;
 	position: relative;
@@ -190,7 +191,7 @@ blockquote footer {
 
 .navbar-brand {
 	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
+	font-weight: bolder;
 	color: #444442;
 	font-size: 40px;
 	justify-content: center;
@@ -485,16 +486,15 @@ section {
 
 /*=====================================  Service  ===================================*/
 
-/*#services {
-	background: url(../img/computer-worker.jpg);
-}*/
 
 .service-content {
-    background-color: #f1f0f0;
-    border: 1px solid #dedede;
+    /*background-color: #f1f0f0;*/
+		background-color: #F56123;
+    /*border: 1px solid #dedede;*/
     margin-bottom: 30px;
-    padding: 50px 0px;
+    padding: 10px 0px;
     text-align: center;
+		color: white;
 }
 
 .service-content i {
@@ -506,9 +506,15 @@ section {
     padding: 15px 0px;
 }
 
+.service-images {
+	height: 120px;
+	width: 120px;
+}
+
 /*#services-color {
-		color: #42A2BA;
+	color: white;
 }*/
+
 
 
 /*===========================  call to action ===================================*/
