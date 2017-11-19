@@ -320,7 +320,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 45px;
+	font-family: 'osawald' sans-serif;
+}
+
+h1 {
+	font-size: 60px;
 }
 
 h2 {
@@ -369,7 +373,6 @@ section {
 }
 
 #home-page .header-wrapper .header-wrapper-inner {
-	/*background-color: #F56123;*/
     display: table-cell;
     text-align: center;
     vertical-align: middle; }
@@ -381,22 +384,21 @@ section {
 #home-page .header-wrapper .header-wrapper-inner .intro h1 {
 	background-color: #F56123;
 	color: #ffffff;
-    margin: 0 auto;
+  margin: 0 auto;
 	padding: 15px 10px;
 	letter-spacing: 2px;
-	width: 40%;
+	width: 70%;
 }
 
 #home-page .header-wrapper .header-wrapper-inner .intro h3 {
 	background-color: #F56123;
-	color: #ffffff;
-
-    letter-spacing: 1px;
+	color: #f1f0f0;
+	letter-spacing: 1px;
     margin-bottom: 3.5em;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-	width: 30%;
+	width: 60%;
 }
 
 
