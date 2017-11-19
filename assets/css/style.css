@@ -6,9 +6,6 @@
 
 /*================================= 1. font import  ===========================================*/
 
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);*/
-/*@import url(http://fonts.googleapis.com/css?family=Slabo+27px);*/
-
 
 /*==================================  2. Global  ========================================*/
 
@@ -304,7 +301,6 @@ textarea {
 }
 
 .dark-gray-bg {
-	/*background-color: #f1f0f0;*/
 	background-color: #42A2BA;
 }
 
@@ -639,7 +635,7 @@ process-image {
 }
 
 #blog p {
-    margin-top: 10px;
+    margin-top: 12px;
     color: #6F6F6F;
 }
 
