@@ -286,8 +286,8 @@ textarea {
 /*=-=-=-=-=-==-=-=-=-=-=-=-=  common properties  =-=-=-==-=-=-==-=-=-=-=-=-=-=*/
 
 .dark-bg {
-	background-color: #212121;
-	background-color: #ffffff;
+	/*background-color: #212121;
+	background-color: #ffffff;*/
 	/*color: #d4d4d4;*/
 		color: #444442;
 }
@@ -408,6 +408,11 @@ section {
 
 /*-------------------------------  About  -----------------------------------------*/
 
+/*#about-pic {
+	width: 300px;
+	height: 300px;
+}*/
+
 .about-info {
     margin-bottom: 70px;
 }
@@ -493,25 +498,25 @@ section {
 .service-content {
     /*background-color: #f1f0f0;*/
 		background-color: #F56123;
-    /*border: 1px solid #dedede;*/
-    margin-bottom: 30px;
-    padding: 10px 0px;
+    border: 1px solid #dedede;
+    margin-bottom: 50px;
+    padding: 30px 0px;
     text-align: center;
 		color: white;
 }
 
 .service-content i {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     background-color: #F56123;
     font-size: 30px;
     color: #f1f0f0;
-    padding: 15px 0px;
+    padding: 0px 0px;
 }
 
 .service-images {
-	height: 120px;
-	width: 120px;
+	height: 100px;
+	width: 100px;
 }
 
 /*#services-color {
@@ -1011,7 +1016,7 @@ aside .tag-widget .tags a:hover {
 /*======================================  footer  =================================*/
 
 footer {
-	background-color: #212121;
+	background-color: #444442;
 	color: #F56123;
 	font-size: 14px;
 	padding: 15px 0px;
