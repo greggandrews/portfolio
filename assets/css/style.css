@@ -13,7 +13,7 @@
 /*==================================  2. Global  ========================================*/
 
 body {
-	background-color: white;
+	background-color: #f1f0f0;
 	font-family: 'helvetica neue', sans-serif;
 	/*font-family: 'oswald', sans-serif;*/
 	font-size: 15px;
@@ -286,10 +286,8 @@ textarea {
 /*=-=-=-=-=-==-=-=-=-=-=-=-=  common properties  =-=-=-==-=-=-==-=-=-=-=-=-=-=*/
 
 .dark-bg {
-	/*background-color: #212121;
-	background-color: #ffffff;*/
-	/*color: #d4d4d4;*/
-		color: #444442;
+	background-color: #f1f0f0;
+	color: #444442;
 }
 
 .dark-bg h2,
@@ -498,8 +496,11 @@ section {
 .service-content {
     /*background-color: #f1f0f0;*/
 		background-color: #F56123;
-    border: 1px solid #dedede;
-    margin-bottom: 50px;
+    /*border: 1px solid #dedede;*/
+    margin-bottom: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-left: 10px;
     padding: 30px 0px;
     text-align: center;
 		color: white;
@@ -536,7 +537,7 @@ section {
 /*=================================== process ======================================*/
 
 .process-content {
-		background-color: ##f1f0f0;
+		/*background-color: #f1f0f0;*/
     /*border: 1px solid #dedede;*/
     margin-bottom: 30px;
     padding: 10px 0px;
@@ -549,6 +550,10 @@ process-image {
 }
 
 /*=================================== pricing ======================================*/
+
+.dark-bg-process {
+	background-color: #42A2BA;
+}
 
 .price-catagory {
 	padding-left: 0px;
