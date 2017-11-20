@@ -362,7 +362,7 @@ section {
 /*------------------------------  header -----------------------------------*/
 
 #home-page .header-wrapper {
-    background: url(../img/woodtable-bg10.png) no-repeat center center;
+    background: url(../img/woodtable-bg-c.png) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     display: table;
@@ -382,29 +382,30 @@ section {
 }
 
 #home-page .header-wrapper .header-wrapper-inner .intro h1 {
-	/*background-color: #F56123;*/
-	color: #44442;
+	background-color: #F56123;
+	color: #F56123;
 	font-weight: bold;
+	text-shadow: 5px 5px #444442;
   margin: 0 auto;
 	padding: 15px 10px;
 	letter-spacing: 2px;
 	width: 70%;
 }
 
-#home-page .header-wrapper .header-wrapper-inner .intro h3 {
+/*#home-page .header-wrapper .header-wrapper-inner .intro h3 {
 	/*background-color: #F56123;*/
-	color: #ffffff;
+	/*color: #F56123;
 	letter-spacing: 1px;
     margin-bottom: 3.5em;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-	width: 60%;
-}
+	width: 60%;*/
+}*/
 
 #story {
 	font-size: 30px;
-	color: #444442;
+	color: #F56123;
 	text-transform: uppercase;
 	font-weight: bold;
 }
